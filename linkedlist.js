@@ -88,17 +88,3 @@ class LinkedList {
       this.head = previousNode;
   }
 }
-
-const linkedList = new LinkedList([3, 3, 3, 1, 2, 3, 4, 5, 3]);
-console.log(linkedList.toArray());
-
-linkedList.append(3);
-
-console.log(linkedList.toArray());
-
-linkedList.delete(3);
-console.log(linkedList.toArray());
-
-linkedList.reverse();
-console.log(linkedList.toArray());
-
